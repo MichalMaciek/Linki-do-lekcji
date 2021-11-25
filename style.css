@@ -13,7 +13,7 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background-image: url(images/tło3.jpg);
+    background-image: url(tło3.jpg);
     background-attachment: fixed;
 
 }
