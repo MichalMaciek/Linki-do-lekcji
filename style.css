@@ -1,0 +1,77 @@
+* {
+    font-size: 2rem;
+    text-align: center;
+    font-family: sans-serif;
+    color: chartreuse;
+
+}
+
+body
+{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images/tło3.jpg);
+    background-attachment: fixed;
+
+}
+
+.box
+{
+    background-color: rgba(19, 11, 11, 0.534);
+    margin: 35px;
+    padding: 30px;
+    border: 7px solid rgba(255, 255, 255);
+    display: block;
+    border-radius: 25px;
+    box-shadow: 5px 5px 1px chartreuse;
+    font-size: 1.7rem;
+}
+a
+{
+    transition: color 1s;
+    color: chartreuse;
+}
+
+a:hover
+{
+    color: deeppink;
+}
+
+span
+{
+    display: inline;
+    margin-top: 15px;
+}
+
+.b
+{
+    font-weight: 700;
+}
+
+.i
+{
+    font-style: italic;
+}
+
+ul
+{
+    list-style-type: circle;
+}
+
+ol
+{
+    background-color: rgb(98, 30, 143);
+    margin: 10px;
+}
+
+.obraz
+{
+    width: 25%;
+    height: 25%;
+    border-radius: 500px;
+    display: inline-block;
+
+}
