@@ -1,0 +1,95 @@
+* {
+    font-size: 1.3rem;
+    /* text-align: center; */
+    font-family: sans-serif;
+    /* color: chartreuse; */
+
+}
+
+body
+{
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(tło4.jpg);
+    background-attachment: fixed;
+
+}
+
+.box
+{
+    background-color: rgba(19, 11, 11, 0.534);
+    margin: 35px;
+    padding: 30px;
+    border: 7px solid rgba(255, 255, 255);
+    display: block;
+    border-radius: 25px;
+    box-shadow: 5px 5px 1px chartreuse;
+    font-size: 1.7rem;
+}
+
+table
+{
+    border: 1px solid black;
+    width: 100%;
+}
+
+td
+{
+    border: 1px solid black;
+    text-align: center;
+    height: 50px;
+}
+
+#navbar
+{
+    height: 100px;
+    text-align: center;
+}
+
+#content
+{
+    width: auto;
+    height: 500px;
+    vertical-align: top;
+    text-align: justify;
+    display: table-cell;
+}
+
+#akapit1, #akapit2
+{
+    width: 45%;
+}
+
+#akapit1
+{
+    float: left;
+}
+
+#akapit1
+{
+    float: right;
+}
+
+#sidemenu
+{
+    width: 150px;
+}
+
+#footer
+{
+    height: 150px;
+    text-align: center;
+}
+
+a:hover
+{
+    color: deeppink;
+}
+
+a
+{
+    color: rgb(81, 201, 33);
+}
